@@ -10,10 +10,10 @@ from matplotlib.backends.backend_agg import RendererAgg
 #Loading the data
 @st.cache  #enables the cache memory it will store the data in ram and it will make it very fast
 def get_data_deputies():
-     return pd.read_csv('d:/nation/data/df_dep.csv')
+     return pd.read_csv('D:\nation\data\df_dep.csv')
 @st.cache
 def get_data_political_parties():
-     return pd.read_csv('d:/nation/data/df_polpar.csv')
+     return pd.read_csv('D:\nation\data\df_polpar.csv')
 
 # display the data set for 2 data frames
 #configuration of the page
